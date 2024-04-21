@@ -32,6 +32,9 @@ Update: This project was tested with `Vivado ML Standard 2023.1`, Raspberry Pi
 Pico as the JTAG programmer (XVC server), and EBAZ4205 'Development' FPGA Board
 in May 2023.
 
+Update (April-2024): The `xvc-pico-wifi` version was tested successfully with
+Vivado v2023.1 (64-bit).
+
 
 ### Building pico-xvc (for Linux users)
 
@@ -183,5 +186,3 @@ Note: /dev/ttyACM(n) will appear when Pico's USB is connected.
 - https://github.com/phdussud/pico-dirtyJtag/
 - https://github.com/kholia/Colorlight-5A-75B
 - https://github.com/fusesoc/blinky#ebaz4205-development-board
-- https://github.com/maxnet/pico-webserver/ approach (LWIP_SOCKET is not available yet!)
-- [NEXT] Do a 100% standalone port to Pico W ;)
