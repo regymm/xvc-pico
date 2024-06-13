@@ -1,7 +1,7 @@
-#define PWD0_PIN 2
-#define PWD1_PIN 3
-#define PRD0_PIN 4
-#define PRD1_PIN 5
+#define PWD0_PIN 13
+#define PWD1_PIN 14
+#define PRD0_PIN 15
+#define PRD1_PIN 16
 
 #define PCK_PIN 10
 #define PWRITE_PIN 11

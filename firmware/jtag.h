@@ -28,14 +28,14 @@
  */
 void cmd_handle(uint8_t* rxbuf, uint32_t count, uint8_t* tx_buf);
 
-static int tdi_gpio = 16;
-static int tdo_gpio = 17;
-static int tck_gpio = 18;
-static int tms_gpio = 19;
+static int tdi_gpio = 4;
+static int tdo_gpio = 5;
+static int tck_gpio = 2;
+static int tms_gpio = 3;
 
 #define JTAG_ITF     1
 
-#define LED_PIN      25
+#define LED_PIN      16
 
 // How does this 'feature' even work? Perhaps the 'slew rate' on Raspberry Pi
 // GPIO pins (not Pico?) is slow enough to require these delays? Or the "GPIO
